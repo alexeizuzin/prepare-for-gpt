@@ -1,0 +1,54 @@
+.ym-tool {
+  padding: 10px;
+}
+
+.ym-tool__output {
+  min-height: 10px;
+  background: lightgreen;
+  white-space: nowrap;
+  overflow: scroll;
+  padding: 10px 10px 30px;
+}
+
+.ym-tool__text-input {
+  margin: 10px 0;
+  width: 80vw;
+  height: 20vh;
+  display: block;
+}
+.ym-tool__request-input {
+  width: 80vw;
+  display: block;
+}
+
+.ym-tool__button {
+  margin: 10px 0 0 20px;
+  display: block;
+  font-size: 2rem;
+}
+
+.ym-tool__output_textarea {
+  width: 20vw;
+  height: 40vh;
+}
+
+.ym-tool__output-wrap {
+  display: inline-block;
+}
+
+.ym-tool__output_response_textarea {
+  width: 20vw;
+  background: lightblue;
+  height: 30vh;
+  overflow: scroll;
+  white-space: normal;
+}
+
+.ym-tool__output_response_textarea:empty {
+  height: 10px;
+  background: yellow;
+}
+
+.ym-tool__loader {
+  background: lime;
+}
